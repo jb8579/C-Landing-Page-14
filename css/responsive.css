@@ -4,3 +4,559 @@
         max-width: 98vw;
     }
 }
+
+
+@media only screen and (max-width: 600px) {
+    .betspacefr-home-content {
+        padding: 20px 0px;
+    }
+
+    .betspacefr-home-content > h1 {
+        font-size: 30px;
+        line-height: 34px;
+        padding-bottom: 8px;
+    }
+
+    .betspacefr-home-content > p {
+        font-size: 15px;
+        line-height: 22px;
+        margin: 0px;
+    }
+
+    .bestspacefr-trust-content > p {
+        font-size: 12px;
+        margin: 0px;
+        word-spacing: 0px;
+    }
+
+    .bestspacefr-trust-content {
+        gap: 0px;
+    }
+
+    .betspacefr-trust-bar {
+        gap: 6px;
+    }
+
+    a.bestspacefr-logo-img > img {
+        height: auto;
+    }
+
+    .bestspacefr-table-left {
+        display: flex;
+        gap: 16px;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .bestspacefr-table-logo > a > p {
+        font-size: 14px;
+        text-align: right;
+        padding: 6px 0px;
+        position: absolute;
+        right: 12px;
+        top: 34px;
+    }
+
+    .tooltip-card {
+        display: none !important;
+    }
+
+    .bestspacefr-table-right {
+        display: flex;
+        gap: 0px;
+        width: 100%;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .bestspacefr-table-column {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bestspacefr-table-score > h3 {
+        font-size: 26px;
+        text-align: center;
+        position: absolute;
+        top: 8px;
+        right: 12px;
+    }
+
+    .bestspacefr-table-context a > h2 {
+        width: 100%;
+    }
+
+    .bestspacefr-table-score {
+        position: unset;
+        top: 0px;
+    }
+
+    .bestspacefr-table-score > ul {
+        position: absolute;
+        right: 65px;
+        top: 14px;
+    }
+
+    .bestspacefr-table-button {
+        padding: 10px 0px;
+    }
+
+    .bestspacefr-table-button > a {
+        border-radius: 0px;
+        top: 0;
+    }
+
+    .bestspacefr-table-context a > ul > li {
+        font-size: 14px;
+        width: 100%;
+        display: flex;
+    }
+
+    .bestspacefr-table-context a > h2 {
+        font-size: 18px;
+        word-spacing: 1.0px;
+        line-height: 26px;
+    }
+
+    .bestspacefr-footer-link > ul {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .bestspacefr-copyright {
+        padding-top: 15px;
+        padding-bottom: 0px;
+        float: unset;
+        text-align: center;
+    }
+
+    .bestspacefr-footer {
+        padding: 40px 15px;
+        border-top: 2px solid rgb(49, 49, 49);
+        border-radius: 0px;
+    }
+
+    .col-md-4.bestspacefr-footer-logo {
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+
+    h2.bestspacefr-faq-title {
+        font-size: 28px;
+        line-height: normal;
+        font-style: normal;
+        padding-bottom: 25px;
+    }
+
+    .accordion {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    button.accordion-button.collapsed {
+        font-size: 15px;
+        font-style: normal;
+        margin: 0px;
+        padding: 12px 20px;
+        line-height: normal;
+    }
+
+    .bestspacefr-faq-section {
+        padding: 30px 0px 40px 0px;
+    }
+
+    .bestspacefr-bottom-description > h2 {
+        font-size: 26px;
+        line-height: 30px;
+        font-style: normal;
+        padding-bottom: 10px;
+    }
+
+    .bestspacefr-bottom-description > p {
+        color: #535353;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 22px;
+        font-style: normal;
+        padding-top: 5px;
+        padding-bottom: 15px;
+        margin: 0px;
+    }
+
+    .bestspacefr-card-content.service-01 > img{
+        display: none;
+    }
+
+    .bestspacefr-card .service-02 img{
+        display: none;
+    }
+
+    .bestspacefr-service {
+        text-align: center;
+        background: #f7f7f7;
+        margin: 12px 0px;
+        padding: 25px 0px;
+    }
+
+    .bestspacefr-context-area {
+        margin-top: -25px;
+    }
+
+    .bestspacefr-context-area > h3 {
+        font-size: 20px;
+        padding: 10px 0px;
+    }
+
+    .bestspacefr-card-content.service-02 {
+        margin-top: 0px;
+    }
+
+    .betspacefr-context-bottom-section {
+        padding: 10px 0px 30px 0px;
+    }
+
+    .bestspacefr-service-title > h2 {
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    .bestspacefr-service-py {
+        margin: 0px 15px;
+    }
+
+    .bestspacefr-context-area > p {
+        font-size: 15px;
+        font-style: normal;
+        padding: 0px 15px;
+        line-height: 22px;
+        margin: 0px;
+    }
+
+    .bestspacefr-img > img {
+        width: 70px;
+    }
+
+    .bestspacefr-slot-card {
+        padding: 25px 0px;
+    }
+
+    .bestspacefr-slot-text > p {
+        padding-top: 8px;
+    }
+
+    .bestspacefr-table {
+        padding: 30px 0px;
+    }
+
+    .bestspacefr-service-section {
+        padding: 40px 0px 30px 0px;
+    }
+
+    footer img.bestspacefr-footer-ico {
+        max-width: 130px;
+    }
+
+    .bestspacefr-table-column:hover{
+        border: 2px solid rgba(196, 196, 196, 0.363);
+    }
+
+    h2.bestspacefr-sub-title {
+        font-size: 32px;
+        margin: 0px;
+    }
+}
+
+
+@media  only screen and (max-width: 868px) and (min-width: 601px) {
+    .betspacefr-home-content {
+        padding: 20px 0px;
+    }
+
+    .tooltip-card {
+        left: -5px;
+    }
+
+    .betspacefr-home-content > h1 {
+        font-size: 30px;
+        line-height: 34px;
+        padding-bottom: 8px;
+    }
+
+    .betspacefr-home-content > p {
+        font-size: 15px;
+        line-height: 22px;
+        margin: 0px;
+    }
+
+    .bestspacefr-trust-content > p {
+        font-size: 12px;
+        margin: 0px;
+        word-spacing: 0px;
+    }
+
+    .bestspacefr-trust-content {
+        gap: 0px;
+    }
+
+    .betspacefr-trust-bar {
+        gap: 6px;
+    }
+
+    a.bestspacefr-logo-img > img {
+        height: auto;
+    }
+
+    .bestspacefr-table-left {
+        display: flex;
+        gap: 16px;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .bestspacefr-table-logo > a > p {
+        font-size: 14px;
+        text-align: right;
+        padding: 6px 0px;
+        position: absolute;
+        right: 12px;
+        top: 34px;
+    }
+
+    .bestspacefr-table-right {
+        display: flex;
+        gap: 0px;
+        width: 100%;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .bestspacefr-table-column {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bestspacefr-table-score > h3 {
+        font-size: 26px;
+        text-align: center;
+        position: absolute;
+        top: 8px;
+        right: 12px;
+    }
+
+    .bestspacefr-table-context a > h2 {
+        width: 100%;
+    }
+
+    .bestspacefr-table-score {
+        position: unset;
+        top: 0px;
+    }
+
+    .bestspacefr-table-score > ul {
+        position: absolute;
+        right: 65px;
+        top: 14px;
+    }
+
+    .bestspacefr-table-button {
+        padding: 10px 0px;
+    }
+
+    .bestspacefr-table-button > a {
+        border-radius: 0px;
+        top: 0;
+    }
+
+    .bestspacefr-table-context a > ul > li {
+        font-size: 14px;
+        width: 100%;
+        display: flex;
+    }
+
+    .bestspacefr-table-context a > h2 {
+        font-size: 21px;
+        word-spacing: 1.0px;
+        line-height: 28px;
+        width: 72%;
+    }
+
+    .bestspacefr-footer-link > ul {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .bestspacefr-copyright {
+        padding-top: 15px;
+        padding-bottom: 0px;
+        float: unset;
+        text-align: center;
+    }
+
+    .bestspacefr-footer {
+        padding: 40px 15px;
+        border-top: 2px solid rgb(49, 49, 49);
+        border-radius: 0px;
+    }
+
+    .col-md-4.bestspacefr-footer-logo {
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+
+    h2.bestspacefr-faq-title {
+        font-size: 28px;
+        line-height: normal;
+        font-style: normal;
+        padding-bottom: 25px;
+    }
+
+    .accordion {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    button.accordion-button.collapsed {
+        font-size: 15px;
+        font-style: normal;
+        margin: 0px;
+        padding: 12px 20px;
+        line-height: normal;
+    }
+
+    .bestspacefr-faq-section {
+        padding: 30px 0px 40px 0px;
+    }
+
+    .bestspacefr-bottom-description > h2 {
+        font-size: 26px;
+        line-height: 30px;
+        font-style: normal;
+        padding-bottom: 10px;
+    }
+
+    .bestspacefr-bottom-description > p {
+        color: #535353;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 22px;
+        font-style: normal;
+        padding-top: 5px;
+        padding-bottom: 15px;
+        margin: 0px;
+    }
+
+    .bestspacefr-context-area > h3 {
+        font-size: 20px;
+        padding: 10px 0px;
+    }
+
+    .betspacefr-context-bottom-section {
+        padding: 10px 0px 30px 0px;
+    }
+
+    .bestspacefr-service-title > h2 {
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    .bestspacefr-service-py {
+        margin: 0px 15px;
+    }
+
+    .bestspacefr-context-area > p {
+        font-size: 15px;
+        font-style: normal;
+        padding: 0px 0px;
+        line-height: 22px;
+        margin: 0px;
+    }
+
+    .bestspacefr-img > img {
+        width: 60px;
+    }
+
+    .bestspacefr-slot-card {
+        padding: 10px 0px;
+    }
+
+    .bestspacefr-slot-text > p {
+        padding-top: 8px;
+        font-size: 11px;
+    }
+
+    .bestspacefr-table {
+        padding: 30px 0px;
+    }
+
+    .bestspacefr-service-section {
+        padding: 40px 0px 30px 0px;
+    }
+
+    footer img.bestspacefr-footer-ico {
+        max-width: 130px;
+    }
+
+    .bestspacefr-table-column:hover{
+        border: 2px solid rgba(196, 196, 196, 0.363);
+    }
+}
+
+
+@media only screen and (max-width: 375px) and (min-width: 300px){
+    .bestspacefr-table-context a > h2 {
+        font-size: 16px;
+        word-spacing: 1.0px;
+        line-height: 26px;
+    }
+
+    .bestspacefr-trust-content > img {
+        width: 22px;
+    }
+
+    .betspacefr-trust-bar {
+        gap: 4px;
+    }
+    
+    .bestspacefr-trust-content > p {
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width: 360px) and (min-width: 300px){
+    .betspacefr-home-content > h1 {
+        font-size: 25px;
+    }
+
+    .bestspacefr-service-title > h2 {
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+    .bestspacefr-service-title > p {
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 20px;
+        font-style: normal;
+        padding-top: 5px;
+        padding-bottom: 34px;
+        margin: 0px;
+    }
+
+    footer img.bestspacefr-footer-ico {
+        max-width: 120px;
+    }
+
+    .bestspacefr-footer-text > p {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 1270px) and (min-width: 901px){
+    .tooltip-card {
+        left: -5px;
+    }
+}

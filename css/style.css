@@ -244,7 +244,7 @@ a.bestspacefr-logo-img > img {
     border: 0px;
     outline: 0px;
     position: relative;
-    top: 6px;
+    top: 15px;
     text-decoration: none;
 }
 
@@ -420,16 +420,169 @@ p.tool-tip-disclaimer{
 ----------------------------------------- */
 
 
-
-/* ---------------------------------------
-    Context Start 
------------------------------------------ */
-.bestspacefr-context-section{
+/* ------------------------------------
+    Service Start
+-------------------------------------- */
+.bestspacefr-service-section{
+    padding: 60px 0px 30px 0px;
     background: #ffffff;
-    padding: 40px 0px;
 }
 
-h2.bestspacefr-title{
+.bestspacefr-service-title{
+    text-align: center;
+}
+
+.bestspacefr-service-title > h2{
+    font-family: "PT Sans", sans-serif;
+    color: #0a0a0a;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    font-style: normal;
+}
+
+.bestspacefr-service-title > p{
+    color: #424242;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    font-style: normal;
+    padding-top: 5px;
+    padding-bottom: 45px;
+    margin: 0px;
+    font-family: "Inter", sans-serif;
+}
+
+.bestspacefr-card {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+
+.bestspacefr-card-content {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border: 1px solid #ff4500;
+    color: #ff4500;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.bestspacefr-card .service-01 img {
+    position: absolute;
+    top: 30px;
+    right: -20px;
+    width: 209px;
+    transform: rotate(10deg);
+}
+
+.bestspacefr-card-content.service-02 {
+    margin-top: 70px;
+}
+
+.bestspacefr-card .service-02 img {
+    position: absolute;
+    top: 84px;
+    right: -20px;
+    width: 209px;
+    transform: rotate(-10deg);
+}
+
+.bestspacefr-card:hover .bestspacefr-card-content {
+    background: #ff4500;
+    color: #fff;
+    border: dashed 1px;
+}
+
+.bestspacefr-context-area > h3{
+    font-family: "PT Sans", sans-serif;
+    color: #0a0a0a;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: normal;
+    padding: 10px 0px;
+}
+
+.bestspacefr-context-area > p{
+    font-family: "Inter", sans-serif;
+    color: #666565;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0px;
+    line-height: 20px;
+    margin: 0px;
+}
+/* ----------------------------------
+    Service End
+------------------------------------ */
+
+
+/* ------------------------------------
+    Slot Start
+-------------------------------------- */
+.bestspacefr-slot-section {
+    padding: 0px 0px 60px 0px;
+    background: #ffffff;
+    margin-top: -1px;
+}
+
+.bestspacefr-slot-card{
+    border: dashed 1px #ff4500;
+    border-radius: 5px;
+    padding: 15px 0px;
+    text-align: center;
+    transition: 0.3s;
+    transform: translateY(0);
+    background-color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.bestspacefr-slot-card:hover {
+    transform: translateY(5px);
+    background-color: #fffbfb;
+}
+
+.bestspacefr-img > img{
+    width: 80px;
+}
+
+.bestspacefr-slot-text > p{
+    color: #424242;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    font-style: normal;
+    margin: 0px;
+    font-family: "Inter", sans-serif;
+    padding-top: 8px;
+}
+/* -------------------------------------
+    Slot End
+--------------------------------------- */
+
+
+
+/* ----------------------------------------
+    Context Bottom Start
+------------------------------------------- */
+.betspacefr-context-bottom-section {
+    padding: 60px 0px;
+    background-color: #ffffff;
+    margin-top: -1px;
+}
+
+.bestspacefr-bottom-description > h2{
     font-family: "PT Sans", sans-serif;
     color: #0a0a0a;
     font-size: 36px;
@@ -439,70 +592,17 @@ h2.bestspacefr-title{
     padding-bottom: 12px;
 }
 
-.bestspacefr-context-middle > h3 {
-    color: #161616;
-    font-size: 22px;
-    font-weight: 600;
-    line-height: 44px;
-    font-style: normal;
-    padding-bottom: 15px;
-    margin: 0px;
-    font-family: "Inter", sans-serif;
-}
-
-.bestspacefr-context-middle > h4 {
-    color: #161616;
-    font-size: 22px;
-    font-weight: 600;
-    line-height: 44px;
-    font-style: normal;
-    padding-top: 15px;
-    margin: 0px;
-    font-family: "Inter", sans-serif;
-}
-
-.bestspacefr-context-middle > img{
-    width: 100%;
-    height: 500px;
-    padding-bottom: 15px;
-}
-
-.bestspacefr-context-middle > p{
-    color: #2e2d2d;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 20px;
-    font-style: normal;
-    padding-top: 5px;
-    padding-bottom: 8px;
-    margin: 0px;
-    font-family: "Inter", sans-serif;
-}
-/* ------------------------------------------
-    Context End
---------------------------------------------- */
-
-
-/* ----------------------------------------
-    Context Bottom Start
-------------------------------------------- */
-.betspacefr-context-bottom-section{
-    padding: 40px 0px 20px 0px;
-    background-color: #0a0a0a94;
-}
-
-.bestspacefr-bottom-description > h2{
+.bestspacefr-bottom-description > h3{
     font-family: "PT Sans", sans-serif;
-    color: #ffffff;
-    font-size: 36px;
+    color: #0a0a0a;
+    font-size: 24px;
     font-weight: 600;
-    line-height: 44px;
     font-style: normal;
-    padding-bottom: 12px;
+    padding: 10px 0px;
 }
 
 .bestspacefr-bottom-description > p{
-    color: #e7e5e5;
+    color: #424242;
     font-size: 16px;
     font-weight: 400;
     line-height: 22px;
@@ -511,7 +611,7 @@ h2.bestspacefr-title{
     padding-bottom: 15px;
     margin: 0px;
     font-family: "Inter", sans-serif;
-    word-spacing: 1.2px;
+    word-spacing: 1px;
 }
 /* -----------------------------------------
     Context Bottom End
@@ -598,6 +698,17 @@ button.accordion-button.collapsed{
     gap: 4px;
 }
 
+.row.bestspacefr-footer-content-top.pb-4 {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1365px;
+}
+
+.row.bestspacefr-footer-content-b{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1365px;
+}
 
 .footer-license-images img {
     padding: 10px 0px 20px 0px;
@@ -672,6 +783,11 @@ hr {
     text-decoration: none;
 }
 
+.bestspacefr-footer-link > ul > li > a:hover {
+    color: #0d6efd;
+    text-decoration: underline;
+}
+
 .bestspacefr-copyright{
     color: #c2c2c2;
     font-size: 14px;
@@ -689,3 +805,61 @@ hr {
 /* --------------------------------------------
     Footer End
 ----------------------------------------------- */
+
+
+
+/* ------------------------------------------
+    Sub Pages Start
+--------------------------------------------- */
+.bestspacefr-subpages{
+    padding: 40px 0px;
+    background: #ffffff;
+}
+
+h2.bestspacefr-sub-title{
+    font-family: "PT Sans", sans-serif;
+    color: #0a0a0a;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    font-style: normal;
+    padding-bottom: 12px;
+}
+
+.bestspacefr-subpages-context > h5{
+    color: #161616;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 22px;
+    font-style: normal;
+    padding: 10px 0px;
+    margin: 0px;
+    font-family: "Inter", sans-serif;
+}
+
+.bestspacefr-subpages-context > p{
+    color: #424242;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    font-style: normal;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    margin: 0px;
+    font-family: "Inter", sans-serif;
+}
+
+.bestspacefr-subpages-context > ul > li{
+    color: #424242;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    font-style: normal;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0px;
+    font-family: "Inter", sans-serif;
+}
+/* -------------------------------------------
+    Sub Pages End
+--------------------------------------------- */
