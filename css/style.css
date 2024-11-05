@@ -28,13 +28,38 @@ body::before{
     height: 100%;
 }
 
+.bestspacefr-fixed-disclaimer {
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+    background: rgb(217 0 61);
+    box-shadow: 0px 16px 80px 0px rgba(101, 77, 255, 0.171);
+}
+
+.bestspacefr-fixed-disclaimer > p{
+    font-family: "Rubik", sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    font-style: normal;
+    margin: 0px;
+    padding: 5px 0px;
+}
+
+.bestspacefr-fixed-disclaimer > p > img{
+    width: 22px;
+    position: relative;
+    top: -1px;
+    margin-right: 4px;
+}
 
 
 /* ------------------------------
     Header Start
 ---------------------------------- */
 .betspacefr-home-content{
-    padding: 30px 0px;
+    padding: 24px 0px;
 }
 
 .betspacefr-home-content > h1{
@@ -278,23 +303,23 @@ a.bestspacefr-logo-img > img {
 }
 
 .tooltip-bg-logo.tooltip-bg-1{
-    background: #197cb0;
+    background: #147b45;
 }
 
 .tooltip-bg-logo.tooltip-bg-2{
-    background: #1f2127;
+    background: #080d29;
 }
 
 .tooltip-bg-logo.tooltip-bg-3{
-    background: #170532;
+    background: #000000;
 }
 
 .tooltip-bg-logo.tooltip-bg-4{
-    background: #171725;
+    background: #042659;
 }
 
 .tooltip-bg-logo.tooltip-bg-5{
-    background: #1d0f2d;
+    background: #070112;
 }
 
 .tooltip-card .arrow {

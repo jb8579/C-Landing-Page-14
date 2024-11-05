@@ -8,7 +8,7 @@
 
 @media only screen and (max-width: 600px) {
     .betspacefr-home-content {
-        padding: 20px 0px;
+        padding: 15px 0px;
     }
 
     .betspacefr-home-content > h1 {
@@ -18,8 +18,8 @@
     }
 
     .betspacefr-home-content > p {
-        font-size: 15px;
-        line-height: 22px;
+        font-size: 12px;
+        line-height: 18px;
         margin: 0px;
     }
 
@@ -55,6 +55,18 @@
         position: absolute;
         right: 12px;
         top: 34px;
+    }
+
+    .bestspacefr-fixed-disclaimer > p{
+        font-size: 11px;
+        padding: 5px 0px;
+        line-height: 12px;
+        font-weight: 400;
+    }
+
+    .bestspacefr-fixed-disclaimer > p > img{
+        width: 15px;
+        margin-right: 2px;
     }
 
     .tooltip-card {
@@ -99,15 +111,19 @@
 
     .bestspacefr-table-button {
         padding: 10px 0px;
+        display: block;
     }
 
     .bestspacefr-table-button > a {
         border-radius: 0px;
         top: 0;
+        display: block;
+        width: 100%;
+        text-align: center;
     }
 
     .bestspacefr-table-context a > ul > li {
-        font-size: 14px;
+        font-size: 13px;
         width: 100%;
         display: flex;
     }
@@ -247,7 +263,7 @@
     }
 
     .bestspacefr-table {
-        padding: 30px 0px;
+        padding: 20px 0px;
     }
 
     .bestspacefr-service-section {
@@ -256,10 +272,6 @@
 
     footer img.bestspacefr-footer-ico {
         max-width: 130px;
-    }
-
-    .bestspacefr-table-column:hover{
-        border: 2px solid rgba(196, 196, 196, 0.363);
     }
 
     h2.bestspacefr-sub-title {
@@ -272,6 +284,10 @@
 @media  only screen and (max-width: 868px) and (min-width: 601px) {
     .betspacefr-home-content {
         padding: 20px 0px;
+    }
+
+    .bestspacefr-fixed-disclaimer > p {
+        font-size: 12px;
     }
 
     .tooltip-card {
@@ -291,17 +307,9 @@
     }
 
     .bestspacefr-trust-content > p {
-        font-size: 12px;
+        font-size: 14px;
         margin: 0px;
         word-spacing: 0px;
-    }
-
-    .bestspacefr-trust-content {
-        gap: 0px;
-    }
-
-    .betspacefr-trust-bar {
-        gap: 6px;
     }
 
     a.bestspacefr-logo-img > img {
@@ -345,10 +353,6 @@
         right: 12px;
     }
 
-    .bestspacefr-table-context a > h2 {
-        width: 100%;
-    }
-
     .bestspacefr-table-score {
         position: unset;
         top: 0px;
@@ -370,9 +374,10 @@
     }
 
     .bestspacefr-table-context a > ul > li {
-        font-size: 14px;
+        font-size: 16px;
         width: 100%;
         display: flex;
+        margin-bottom: 4px;
     }
 
     .bestspacefr-table-context a > h2 {
@@ -506,9 +511,9 @@
 }
 
 
-@media only screen and (max-width: 375px) and (min-width: 300px){
+@media only screen and (max-width: 385px) and (min-width: 300px){
     .bestspacefr-table-context a > h2 {
-        font-size: 16px;
+        font-size: 17px;
         word-spacing: 1.0px;
         line-height: 26px;
     }
