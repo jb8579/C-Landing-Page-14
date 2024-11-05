@@ -280,6 +280,25 @@
     }
 }
 
+@media only screen and (max-width: 992px) and (min-width: 869px) {
+    .container, .container-md, .container-sm {
+        max-width: 970px !important;
+    }
+
+    .bestspacefr-table-button > a {
+        font-size: 12px;
+    }
+
+    .bestspacefr-table-context a > h2 {
+        font-size: 18px;
+        width: 366px;
+    }
+
+    .betspacefr-home-content > h1 {
+        font-size: 38px;
+    }
+}
+
 
 @media  only screen and (max-width: 868px) and (min-width: 601px) {
     .betspacefr-home-content {
